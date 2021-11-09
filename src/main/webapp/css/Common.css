@@ -1,0 +1,25 @@
+@charset "UTF-8";
+img,fieldset{border:0;vertical-align:middle}
+ul,ol,li,dl{list-style:none}
+body {
+    background: #fff;
+    font-family: 'Nanum Gothic','Malgun Gothic',dotum,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    font-weight: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+div {
+    display: block;
+}
+
+A:link{text-decoration:none;color:#444;}
+A:hover{text-decoration:none;color:#272c3a}
+A:visited{text-decoration:none;color:#444}
+A:active{text-decoration:none;color:#444}
+
+.header{width:100%;position:relative}
+.container{width:100%;overflow:hidden}
