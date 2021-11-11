@@ -66,7 +66,9 @@ A:link {
     text-decoration: none;
     color: #444;
 }
-
+A:active{
+	color: #444;
+}
 /* smeWrap */
 .smeWrap {
     position: absolute;
@@ -77,7 +79,10 @@ A:link {
     border-bottom: 1px solid #adadad;
     visibility: hidden;
 }
-
+.meWrap:hover .smeWrap{
+	visibility:visible;
+	    width: 100%;
+}
 .smenu {
     margin: 0 auto;
     z-index: 100;
