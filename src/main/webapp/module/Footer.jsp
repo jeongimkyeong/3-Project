@@ -64,7 +64,7 @@ body {
 			<p>Copyright (C) Yesoft All rights reserved. E-mail : yesoft@paran.com</p>
 		</div>
 		<div class="flogo">
-			<img src="img/footer_logo.png">
+			<img src="/img/footer_logo.png">
 		</div>
 	</div>
 </body>

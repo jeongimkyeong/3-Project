@@ -5,30 +5,33 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="/resources/css.css" rel="stylesheet" type="text/css">
+<link href="/css/Login.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
-<div class="content">
-	<div class="maincontent">
-		<div class="logincontent">
-			<h3>LOGIN</h3>
+<%@ include file="/module/Header.jsp" %>
+<div class="sectioncontent">
+	<div class="logincontent">
+		<div class="logintitle">
+				<h1>LOGIN</h1>
 		</div>
-		<form name="loginform" method="get" action="">
-			<div class="loginbox">
-				<p>아이디가 없으시면 무료 회원가입을 해주시기 바랍니다</p>
+		<form name="loginform" method="post" action="">
+			<div class="loginformbox">
+				<p>아이디가 없으면 무료 회원가입을 해주시기 바랍니다</p>
 				<ul>
-					<li><input type="text" name="userid" placeholder="아이디" class="inputtxt" tabindex="11"></li>
-					<li><input type="password" name="pwd" placeholder="비밀번호" class="inputtxt" tabindex="11"></li>
+					<li><input type="text" name="userid" placeholder="아이디" value="" class="logininput"></li>
+					<li><input type="password" name="pwd" placeholder="비밀번호" value="" class="logininput"></li>
 				</ul>
-				<a href="#" class="buttonlogin">로그인</a>
+				<a href="#" class="loginbutton"><span>로그인</span></a>
 			</div>
 		</form>
-		
-		<div class="find">
-			<a href="#" style="color:red;">무료회원가입</a>
-			<a href="#">아이디/비밀번호 찾기</a>
+		<div class="findlink">
+			<a href="#"><span>무료회원가입</span></a>
+			<a href="#">아이디/비밀번호찾기</a>
 		</div>
 	</div>
 </div>
+<%@ include file="/module/Footer.jsp" %>
+<!-- 깃허브테스트 주석문 -->
 </body>
 </html>
